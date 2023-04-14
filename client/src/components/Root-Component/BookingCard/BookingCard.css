@@ -1,0 +1,143 @@
+.capacity {
+  display: flex;
+  align-items: center;
+}
+
+.room-details {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: start;
+  padding: 0.5rem 0.5rem;
+}
+
+.room-details h6 {
+  font-size: 1rem;
+}
+
+h6 {
+  margin: 0;
+}
+
+.price > span {
+  font-size: 1rem;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.compare > label {
+  font-size: 0.8rem;
+}
+
+.compare {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.3rem;
+}
+
+.room-details::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 1px;
+  left: 0;
+  background: black;
+}
+
+.details h6 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.room-info {
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.action-2 span {
+  color: green;
+  font-size: 0.8rem;
+}
+
+
+
+.room-info::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 1px;
+  left: 0;
+}
+
+
+
+.room-pax {
+  padding: 1rem 0.5rem;
+  display: grid;
+  border-top: 2px solid rgb(183, 181, 181);
+  grid-template-columns:repeat(4,1fr);
+}
+
+
+.pax-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pax-type span {
+  font-size: 0.9rem;
+  text-align: right;
+  color: black;
+}
+
+.pax-age {
+  color: gray;
+  font-size: 0.8rem !important;
+}
+.pax select{
+ margin-left: 10px; 
+ background-color: white;
+ color: black;
+}
+
+.pax {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+.booking-card {
+  padding: 1rem;
+}
+
+.right-content {
+  text-align: end;
+}
+
+.resort-name {
+  text-align: start;
+  padding: 1rem 0.5rem;
+}
+
+.resort-name > h2 {
+  font-size:1.3rem;
+}
+.no-error-1{
+  color: rgb(3, 164, 3);
+  font-size: 16px;
+  font-weight: 500;
+}
+.error-1{
+  color: rgb(164, 3, 3);
+  font-size: 16px;
+  font-weight: 500;
+}
